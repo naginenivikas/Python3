@@ -5,7 +5,7 @@ print("Hello World \\User")
 #o/p : \" \'
 print(" \\\" \\\'")
 # Single line print Statement with '\' continue character
-print("""\ 
+print("""\
 Hello \
 User \
 Welcome to PY3""")
