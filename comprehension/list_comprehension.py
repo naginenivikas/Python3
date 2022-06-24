@@ -16,9 +16,6 @@
 #
 # =================================================================
 
-from re import I
-
-
 def list_comprehensions(num, arr=None):
     """ To Perform List Comprehension based on "n value".
     
