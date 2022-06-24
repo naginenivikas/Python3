@@ -33,7 +33,6 @@ def list_comprehensions(num, arr=None):
 
         case 3: return [f'{val} is even' if (val%2 == 0) else f'{val} is odd' for val in arr]
 
-            # Generator object after comprehesing, need to convert it to List.
         case 4: return [ [val for val in range(arr[0], arr[1]+1)][-1::-1] if (sub_list%2 !=0 ) else [val for val in range(arr[0], arr[1]+1)] for sub_list in range(arr[2]) ]
 
         case default: return "Wrong Input for List Comprehension technique"
