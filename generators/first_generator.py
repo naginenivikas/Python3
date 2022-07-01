@@ -7,8 +7,9 @@ print(my_gen(10))  # <generator object my_gen at 0x0000023A3B261FC0>
 
 numbers = my_gen(10)  # We have generated the sequence
 
+# for Every Iteration generator will be called.
 for val in numbers:
-    print(f"{val}")
+    print(f" Iterator on Generator : {val}")
 
 #  Only one time we can Iterator over generator once done it will be flushed from memory
 
@@ -53,7 +54,7 @@ print("\n")
 for val in numbers:                                      
     print(f"{val}", end=' ')
 
-"""
+"""s
 Output:- 
 called generator : 1 
 called generator : 2 
